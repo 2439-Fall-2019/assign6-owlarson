@@ -25,8 +25,9 @@
 -->
 <div data-role="page">
     <div data-role="header">
-        <h1>Assignment 6</h1>
-    </div> <!--closing header tag-->
+        <a data-ajax="false" data-position="fixed" href="http://student.mccinfo.net/~owlarson/info2439/index.html" class="ui-btn-left" target="_blank" data-icon="home">Home</a>
+        <h1>Owen Larson</h1>
+    </div> <!--Closing Header Div Tag-->
     <div role="main" class="ui-content">
         <ul id="theList" data-role="listview" data-inset="true">
             <li>Items</li>
@@ -41,6 +42,10 @@
             <input type="button" id="testBtn" value="Add It">
         </form>
     </div> <!--closing main tag-->
+    <div data-role="footer" data-position="fixed" data-id="footernav" data-theme="a">
+        <a data-ajax="false" href="mailto:owlarson@mail.mccneb.edu" class="ui-btn-left">Email Us</a>
+        <h4>Owen Larson</h4>
+    </div> <!--Closing Footer Div Tag-->
 </div> <!--closing page tag-->
 <script>
     $("#testBtn").click(function() {
